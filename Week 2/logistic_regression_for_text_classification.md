@@ -23,20 +23,20 @@ Before applying logistic regression to text classification tasks, it is benefici
 
 ## Applying Logistic Regression to Text Classification
 
-Once the foundational concepts are clear, the next step is to explore practical applications of logistic regression for text classification tasks.
-
-### Implementation from Scratch (Without High-Level Libraries)
-
-- [Jupyter Notebook: Manual Implementation](./without_libraries.ipynb) <br>
-  This notebook demonstrates how to implement logistic regression for text classification without relying on high-level machine learning libraries such as scikit-learn. It is useful for gaining a deeper understanding of the mechanics of the algorithm.
+Once the foundational concepts are clear, the next step is to explore practical applications of logistic regression for text classification tasks. We will do this through reviewing existing implementations.
 
 ### Implementation Using Existing Libraries
 
-- [GeeksforGeeks: Text Classification Using Logistic Regression](https://www.geeksforgeeks.org/machine-learning/text-classification-using-logistic-regression/) <br>
-  A comprehensive tutorial that guides you through preprocessing, vectorization, and model building using scikit-learn and nltk.
-
 - [Dr. Lee’s Blog: Text Preprocessing and Classification](https://drlee.io/text-preprocessing-and-classification-with-logistic-regression-ea4fe3cfcaac) <br>
-  This article emphasizes the importance of text preprocessing techniques such as tokenization, stopword removal, and vectorization, before training a logistic regression model.
+  This article, along with the accompanying Jupyter Notebook, presents an implementation of logistic regression for text classification. Reviewing the implementation will provide you with practical insight into how logistic regression can be applied effectively for NLP tasks.
+
+- [GeeksforGeeks: Text Classification Using Logistic Regression](https://www.geeksforgeeks.org/machine-learning/text-classification-using-logistic-regression/) <br>
+  This tutorial complements the previous resource by offering another end-to-end example of text classification using logistic regression. It walks through text preprocessing, feature extraction with TF-IDF, model training, and evaluation, reinforcing the core steps involved in building a simple yet effective classifier.
+
+### Implementation from Scratch (Without High-Level Libraries)
+
+- [GitHub Repo: Manual Implementation](https://github.com/YukihoKirihara/Text-Classification-by-a-Logistic-Regression-Model-from-Scratch.git) <br>
+  This repository is an example of how to implement logistic regression for text classification without relying on high-level machine learning libraries such as scikit-learn. Understanding the implementation is not necessary but useful for gaining a deeper understanding of the mechanics of the algorithm.
 
 ---
 
