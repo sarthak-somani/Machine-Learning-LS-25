@@ -33,25 +33,3 @@ For a deeper dive into the implementation of these concepts using Python's `scik
 | **Context** | Does not capture the context or semantic meaning of words.          | Also does not capture context, but it can better identify important, topic-specific words. |
 | **Vector Representation** | Vectors contain raw word counts or frequencies.                     | Vectors contain weighted scores ($TF \times IDF$ values) for each word.                      |
 | **Use Case** | Good for simple text classification tasks where word counts are sufficient. | Better for more complex tasks like search engines and document clustering.        |
-
-## Assignment: Text Vectorization Implementation
-
-### Objective
-
-Manually implement the TF-IDF algorithm and compare the results with the outputs from scikit-learn's `CountVectorizer` and `TfidfVectorizer`.
-
-### Corpus
-```python
-corpus = [
-    'the sun is a star',
-    'the moon is a satellite',
-    'the sun and moon are celestial bodies'
-]
-```
-
-### Requirements & Guidelines
-* You may use any standard Python data structures (e.g., lists, dictionaries).
-* Use Python's `math` library for any necessary logarithmic calculations.
-* Submit your Jupyter Notebook (`.ipynb`) or Python script (`.py`), along with a `Readme.md` file that summarizes your findings. Your summary should address:
-    * A comparison of word scores between your manual TF-IDF, `CountVectorizer`, and `TfidfVectorizer`.
-    * An explanation for why the scores for common words (like 'the') differ significantly between the methods.
