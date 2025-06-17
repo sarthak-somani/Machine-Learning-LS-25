@@ -200,4 +200,4 @@ We will learn more about transformer artitecture and more detail of these model 
 
 [Resources](https://www.geeksforgeeks.org/nlp/word-embeddings-in-nlp/)<br>
 [Video Resource 1](https://youtu.be/hQwFeIupNP0?si=HDves-sB-DIqKPZf)<br>
-[Video Resource 2](https://youtu.be/cyvkMFZnheo?si=OWsqEUaLE-ffqASl)
+[Video Resource 2](https://youtu.be/cyvkMFZnheo?si=OWsqEUaLE-ffqASl) 
