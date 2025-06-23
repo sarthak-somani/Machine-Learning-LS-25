@@ -59,3 +59,19 @@ It was introduced to improve performance in sequence-to-sequence tasks (like tra
 
 - [Positional Encoding](https://machinelearningmastery.com/a-gentle-introduction-to-positional-encoding-in-transformer-models-part-1/) :
 Since transformers don't process sequences in order (like RNNs), positional encodings are added to retain word order.
+
+### Core Components:
+- Multi-Head Attention:
+Captures relationships from different subspaces in the data.
+
+- Feed-Forward Neural Networks:
+Applies transformations to each position independently.
+
+- Layer Normalization & Residual Connections:
+Helps with training stability and deeper networks.
+
+[Transformer Architecture](https://jalammar.github.io/illustrated-transformer/)
+
+[Research Paper (Must Read)](https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf)
+
+[Video Resources](https://youtu.be/ZhAz268Hdpw?si=FCy2wMu-hOBIxIIu)
