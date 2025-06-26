@@ -1,9 +1,3 @@
-# Hugging Face for Beginners: A Concise Guide
-
-This README guides beginners through learning Hugging Face, from core concepts to intermediate machine learning (ML) and natural language processing (NLP) skills, enabling you to use pre-trained models, fine-tune them, and integrate ML into projects.
-
----
-
 ## What is Hugging Face?
 
 Hugging Face is an open-source platform offering pre-trained models, datasets, and tools for NLP, computer vision, and audio tasks. Its **Transformers** library simplifies ML, and the **Model Hub** hosts community-contributed resources.
